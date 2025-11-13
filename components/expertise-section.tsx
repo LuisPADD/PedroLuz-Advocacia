@@ -1,13 +1,14 @@
-import { CheckCircle2 } from "lucide-react"
+import { CheckCircle2, BookOpen } from "lucide-react"
+import { Button } from "@/components/ui/button"
 
 export function ExpertiseSection() {
   const credentials = [
-    "Professor do Curso de Direito da UEPG",
-    "Mestre e doutorando em Direito do Estado pela UFPR (Capes 6)",
+    "Foi Professor do Curso de Direito da UEPG (Universidade Estadual de Ponta Grossa). Palestrante e professor convidado.",
+    "Mestre e doutorando em Direito do Estado pela UFPR (Capes 6)",
     "Especialista em Direito Constitucional pela ABDConst",
     "Pós-Graduando em Direito Previdenciário na ESMAFE",
     "Experiência em Direito Digital e Tecnologia",
-    "Dezenas de artigos Publicados na área",
+    'Dezenas de artigos publicados na área e autor do livro "Direito ao Esquecimento no Brasil", editora GEDAI, 2019',
   ]
 
   return (
@@ -42,6 +43,19 @@ export function ExpertiseSection() {
                 </li>
               ))}
             </ul>
+
+            <div className="pt-4">
+              <Button asChild size="lg" variant="secondary" className="gap-2 cursor-pointer">
+                <a
+                  href="https://gedai.ufpr.br/wp-content/uploads/2019/09/Pedro-Luz_NOVO_miolo.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <BookOpen className="h-5 w-5" />
+                  Ler o Livro "Direito ao Esquecimento no Brasil"
+                </a>
+              </Button>
+            </div>
           </div>
         </div>
       </div>
