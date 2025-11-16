@@ -4,6 +4,11 @@ import { Card, CardContent } from "@/components/ui/card"
 export function ServicesSection() {
   const services = [
     {
+      icon: Users,
+      title: "Influenciadores Digitais",
+      description: "Ações contra plataformas, contratos de parceria e gestão de reputação digital.",
+    },
+    {
       icon: Shield,
       title: "Governança e LGPD",
       description: "Adequação à LGPD, políticas de privacidade, DPO e auditoria de conformidade digital.",
@@ -16,12 +21,13 @@ export function ServicesSection() {
     {
       icon: Building2,
       title: "Direito Digital Empresarial",
-      description: "Contratos de software, gestão de incidentes e assessoria em e-commerce.",
-    },
-    {
-      icon: Users,
-      title: "Influenciadores Digitais",
-      description: "Ações contra plataformas, contratos de parceria e gestão de reputação digital.",
+      description: (
+        <>
+          Contratos de software, gestão de incidentes e assessoria em e-commerce.
+          <br /><br />
+          Assessoria em estruturação para times de e-sports e empresas do ramo digital.
+        </>
+      ),
     },
     {
       icon: Landmark,
