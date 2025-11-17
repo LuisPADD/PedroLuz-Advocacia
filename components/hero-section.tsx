@@ -44,7 +44,7 @@ export function HeroSection() {
             <div className="relative h-full w-full flex items-end justify-center">
               <div className="absolute inset-0 bg-white/30 blur-3xl rounded-full scale-110 pointer-events-none" />
               <img
-                src="/images/design-mode/image-removebg-preview%20%281%29.png"
+                src="/images/design-mode/NoBG.png"
                 alt="Dr. Pedro Luz"
                 className="relative h-full w-auto max-w-none object-contain object-bottom drop-shadow-2xl"
               />
