@@ -21,7 +21,12 @@ export function Footer() {
             <ul className="space-y-2 text-sm text-primary-foreground/80">
               <li>
                 <Link href="#servicos" className="hover:text-secondary transition-colors">
-                  LGPD e Privacidade
+                  Influenciadores Digitais
+                </Link>
+              </li>
+              <li>
+                <Link href="#servicos" className="hover:text-secondary transition-colors">
+                  Governança e LGPD
                 </Link>
               </li>
               <li>
@@ -31,12 +36,17 @@ export function Footer() {
               </li>
               <li>
                 <Link href="#servicos" className="hover:text-secondary transition-colors">
-                  Direito Digital
+                  Direito Digital Empresarial
                 </Link>
               </li>
-              <li>
+               <li>
                 <Link href="#servicos" className="hover:text-secondary transition-colors">
-                  Consultoria
+                  Direito Público Digital
+                </Link>
+              </li>
+               <li>
+                <Link href="#servicos" className="hover:text-secondary transition-colors">
+                  Consultoria Acadêmica
                 </Link>
               </li>
             </ul>
