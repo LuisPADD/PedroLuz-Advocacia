@@ -1,22 +1,36 @@
-import { Shield, Brain, Building2, Users, Landmark, GraduationCap } from "lucide-react"
-import { Card, CardContent } from "@/components/ui/card"
+import {
+  Shield,
+  Brain,
+  Building2,
+  Users,
+  Landmark,
+  GraduationCap,
+  FileSearch,
+  Gavel,
+  ReceiptText,
+} from "lucide-react";
+
+import { Card, CardContent } from "@/components/ui/card";
 
 export function ServicesSection() {
   const services = [
     {
       icon: Users,
       title: "Influenciadores Digitais",
-      description: "Ações contra plataformas, contratos de parceria e gestão de reputação digital.",
+      description:
+        "Ações contra plataformas, contratos de parceria e gestão de reputação digital.",
     },
     {
       icon: Shield,
       title: "Governança e LGPD",
-      description: "Adequação à LGPD, políticas de privacidade, DPO e auditoria de conformidade digital.",
+      description:
+        "Adequação à LGPD, políticas de privacidade, DPO e auditoria de conformidade digital.",
     },
     {
       icon: Brain,
       title: "Inteligência Artificial",
-      description: "Due diligence algorítmica, compliance para IA e políticas de ética tecnológica.",
+      description:
+        "Due diligence algorítmica, compliance para IA e políticas de ética tecnológica.",
     },
     {
       icon: Building2,
@@ -24,7 +38,8 @@ export function ServicesSection() {
       description: (
         <>
           Contratos de software, gestão de incidentes e assessoria em e-commerce.
-          <br /><br />
+          <br />
+          <br />
           Assessoria em estruturação para times de e-sports e empresas do ramo digital.
         </>
       ),
@@ -32,14 +47,34 @@ export function ServicesSection() {
     {
       icon: Landmark,
       title: "Direito Público Digital",
-      description: "Governo digital, licitações de tecnologia e transparência algorítmica.",
+      description:
+        "Governo digital, licitações de tecnologia e transparência algorítmica.",
     },
     {
       icon: GraduationCap,
       title: "Consultoria Acadêmica",
-      description: "Cursos, palestras e pareceres técnico-jurídicos especializados.",
+      description:
+        "Cursos, palestras e pareceres técnico-jurídicos especializados.",
     },
-  ]
+    {
+      icon: FileSearch,
+      title: "Contencioso Fiscal Administrativo",
+      description:
+        "Defesa em autuações fiscais, impugnações e recursos administrativos perante a Receita Federal e Secretarias da Fazenda.",
+    },
+    {
+      icon: Gavel,
+      title: "Contencioso Fiscal Judicial",
+      description:
+        "Ações para anulação de cobranças indevidas, mandados de segurança e defesa em execuções fiscais.",
+    },
+    {
+      icon: ReceiptText,
+      title: "Recuperação de Impostos – TAX",
+      description:
+        "Revisão e restituição de tributos pagos indevidamente, incluindo compensações e créditos fiscais.",
+    },
+];
 
   return (
     <section id="servicos" className="py-20 bg-muted/30">
