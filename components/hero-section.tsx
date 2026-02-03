@@ -12,11 +12,11 @@ export function HeroSection() {
   const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`
 
   return (
-    <section className="relative bg-gradient-to-r from-blue-900 via-purple-800 to-purple-900 text-primary-foreground min-h-screen flex items-end overflow-hidden pb-0">
+    <section className="relative pt-30 bg-gradient-to-r from-blue-900 via-purple-800 to-purple-900 text-primary-foreground min-h-90 h-[100vh] flex items-end overflow-hidden">
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_30%_50%,rgba(100,116,139,0.1),transparent_50%)]" />
 
       <div className="container mx-auto px-4">
-        <div className="grid lg:grid-cols-2 gap-12 items-end min-h-screen">
+        <div className="grid lg:grid-cols-2 gap-12 items-center min-h-screen">
           <div className="space-y-6 pb-20 relative z-10">
             <h1 className="font-serif text-4xl md:text-5xl lg:text-6xl font-bold leading-tight text-balance">
               Consultoria Jurídica e Contencioso em <span className="text-secondary">Direito Digital</span>,{" "}
@@ -40,13 +40,13 @@ export function HeroSection() {
             </a>
           </div>
 
-          <div className="relative flex justify-center items-end w-full h-[90vh] min-h-[90vh]">
+          <div className="relative justify-center items-start w-full h-[100vh] min-h-[100vh] hidden md:flex ">
             <div className="relative h-full w-full flex items-end justify-center">
               <div className="absolute inset-0 bg-white/30 blur-3xl rounded-full scale-110 pointer-events-none" />
               <img
-                src="/images/design-mode/AttFoto.png"
+                src="/images/AttFoto.png"
                 alt="Dr. Pedro Luz"
-                className="relative h-full w-auto max-w-none object-contain object-bottom drop-shadow-2xl"
+                className="relative h-full w-auto max-w-none object-contain object-bottom drop-shadow-2xl max-[1365px]:hidden"
               />
             </div>
           </div>
