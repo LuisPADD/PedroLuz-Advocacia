@@ -39,12 +39,12 @@ export function Footer() {
                   Direito Digital Empresarial
                 </Link>
               </li>
-               <li>
+              <li>
                 <Link href="#servicos" className="hover:text-secondary transition-colors">
                   Direito Público Digital
                 </Link>
               </li>
-               <li>
+              <li>
                 <Link href="#servicos" className="hover:text-secondary transition-colors">
                   Consultoria Acadêmica
                 </Link>
